@@ -1,6 +1,8 @@
 
 
 class Station
+	attr_accessor :id
+
 	def initialize(id)
 		@id = id
 		@list_sensors = Array.new # for sensors
@@ -69,6 +71,6 @@ class Sensor
 end
 
 class Bus
-	@id
+	attr_accessor :id
 end
 
